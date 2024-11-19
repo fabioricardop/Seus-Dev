@@ -94,6 +94,34 @@ button:hover{
         border-radius: 15px;
         border: none;
     }
+    .secao2{
+        display: flex;
+        position: relative;
+        margin-top: 50px;
+    }
+    .le1{
+    display: flex;
+    position: relative;
+    width: 50%; 
+    justify-content: center;
+    align-items: center;
+    }
+    .le2{
+        position: relative;
+        width: 50%;
+    }
+    .gif{
+        width: 80%;
+    }
+    .titulo2{
+        color: #ffffff;
+        line-height: 0.94;
+        font-size: 50px;  
+    }
+    .imglogo1, .imglogo2{
+        width: 50%;
+    }
+ 
 
     @media (max-width:420px)
      {
@@ -123,6 +151,19 @@ button:hover{
             .botao {
                 width: 250px; /* Faz o botão ocupar toda a largura disponível */
             }
+            .le1, .le2{
+                width: 100%
+            }
+            .secao2{
+                display: flex;
+                flex-direction: column; /* Alinha os itens verticalmente */
+                align-items: center;
+                text-align: center; /* Centraliza o texto */
+            }
+            .titulo2{
+                position: relative;
+                font-size: 30px !important;
+            }
         }
 </style>
 <body>
@@ -139,8 +180,21 @@ button:hover{
 
     <div class="ld2">
         <div class="imgcode"><img class="ld2image" src="codigo.png"></div>
-        <a href="#"><button class="botao"><spam><H2>INICIAR PROJETO</H2></spam></button></a></div>
+        <a href="#"><button class="botao"><span><H2>INICIAR PROJETO</H2></span></button></a></div>
 </div>
+    <div class="secao2">
+        <div class="le1"><img class="gif" src="loop.gif"></div>
+        <div class="le2"><h1 class="titulo2">SOLUÇÕES PRÁTICAS EM APLICATIVOS PARA IOS E ANDROID</h1>
+            <p>___________________________</p><p>Transforme sua ideia em um aplicativo de sucesso!
+            Oferecemos um serviço completo de criação de aplicativos
+            personalizados, que garantem a conveniência e
+            acessibilidade que seus clientes desejam. Com um app, você
+            alcança um público maior, coleta dados valiosos e oferece
+            uma experiência única. Invista em tecnologia que impulsiona
+            seu negócio e aumenta suas vendas. Solicite uma
+            consultoria e dê o primeiro passo rumo ao sucesso digital!</p>
+            <div class="imglogos"><img class="imglogo1" src="imglogo1.png"><img class="imglogo2" src="imglogo2.png"></div>
+    </div>
 
 </body>
 </html>
