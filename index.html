@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>Seus Dev</title>
+</head>
+<style>
+    div{
+        border: 1px solid red;
+    }
+    body{
+        background-color: #000000;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 3%;
+        font-family: "montserrat", sans-serif;
+    }
+
+    .cabecalho{
+        display: flex;
+        position: relative;
+    }
+    .logotipo{
+        width: 250px;
+        transition: transform 0.3s ease;
+    }
+    .logotipo:hover{
+        transform: scale(1.05);
+    }
+    .secao1{
+        position: relative;
+        align-items: center;
+        display: flex;
+        padding-top: 0;
+        flex-wrap: wrap;
+    }
+    .titulo{
+        color: #ffffff;
+        line-height: 0.94;
+        font-size: 60px !important;  
+    }
+
+    H2{
+        color: #000000;
+        font-size: 20px;
+        font-family:  "montserrat", sans-serif;
+    }
+
+    p{
+        color: #ffffff;
+    }
+    .ld1{
+        position: relative;
+        width: 59%;
+    }
+    .ld2{
+        display: flex;
+        position: relative;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imgcode{
+        position: relative;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ld2image{
+        display: flex;
+        width: 80%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+button{
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #ffffff;
+}
+button:hover{
+    background-color: #e7e7e7; /* Cor ao passar o mouse */
+    transform: scale(1.03); /* Botão cresce */
+}
+    .botao{
+        width: 400px;
+        height: 60px;
+        border-radius: 15px;
+        border: none;
+    }
+
+    @media (max-width:420px)
+     {
+    body{
+        width: 100%;
+    }
+            img.logotipo {
+                width: 100px; /* Reduz a largura do logotipo em telas menores */
+            }
+            
+            h1.titulo {
+                position: relative;
+                font-size: 20px; /* Ajusta o tamanho da fonte do título */
+            }
+            .secao1 {
+                display: flex;
+                flex-direction: column; /* Alinha os itens verticalmente */
+                align-items: center;
+                text-align: center; /* Centraliza o texto */
+            }
+            .ld1, .ld2 {
+                width: 100%; /* Ajusta a largura para ocupar toda a tela em telas menores */
+            }
+            .botao {
+                width: 50%; /* Faz o botão ocupar toda a largura disponível */
+            }
+        }
+</style>
+<body>
+    <div class="cabecalho">
+        <img src="logo.png" class="logotipo" alt="logotipo da seus dev">
+    </div>
+   
+    
+    <div class="secao1">
+        <div class="ld1"><h1 class="titulo">Transformamos ideias em soluções digitais</h1><p>__________________________</p>
+            <p>DESENVOLVIMENTO PERSONALIZADO PARA IMPULSIONAR O SEU NEGÓCIO.</p>
+        <p>No Seus Dev, criamos aplicativos, sites e softwares sob medida para empresas que buscam inovação e eficiência. Nossa equipe especializada entrega soluções digitais completas, de desenvolvimento à implementação, para atender às necessidades únicas do seu negócio.</p>
+    </div>
+
+    <div class="ld2">
+        <div class="imgcode"><img class="ld2image" src="codigo.png"></div>
+        <a href="#"><button class="botao"><spam><H2>INICIAR PROJETO</H2></spam></button></a></div>
+</div>
+
+</body>
+</html>
