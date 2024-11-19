@@ -9,7 +9,7 @@
 </head>
 <style>
     div{
-        border: 1px solid red;
+        border: 0px solid red;
     }
     body{
         background-color: #000000;
@@ -40,7 +40,7 @@
     .titulo{
         color: #ffffff;
         line-height: 0.94;
-        font-size: 60px !important;  
+        font-size: 60px;  
     }
 
     H2{
@@ -98,15 +98,15 @@ button:hover{
     @media (max-width:420px)
      {
     body{
-        width: 100%;
+        width: 90%;
     }
             img.logotipo {
-                width: 100px; /* Reduz a largura do logotipo em telas menores */
+                width: 180px; /* Reduz a largura do logotipo em telas menores */
             }
             
-            h1.titulo {
+            .titulo {
                 position: relative;
-                font-size: 20px; /* Ajusta o tamanho da fonte do título */
+                font-size: 30px !important; /* Ajusta o tamanho da fonte do título */
             }
             .secao1 {
                 display: flex;
@@ -117,8 +117,11 @@ button:hover{
             .ld1, .ld2 {
                 width: 100%; /* Ajusta a largura para ocupar toda a tela em telas menores */
             }
+            button{
+                width: 100%;
+            }
             .botao {
-                width: 50%; /* Faz o botão ocupar toda a largura disponível */
+                width: 250px; /* Faz o botão ocupar toda a largura disponível */
             }
         }
 </style>
